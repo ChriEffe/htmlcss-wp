@@ -71,7 +71,6 @@ html  {
 }
 
 .main  {
-    background-color:#0785ff;
     margin-bottom: 10px;
     height: 700px;
 }
@@ -112,6 +111,9 @@ h2  {
 }
 
 .footer  {
-    height: 50px;
-    background-color: #8801fe;
+    text-align: center;
+}
+
+span  {
+    color: red;
 }
