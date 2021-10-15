@@ -51,8 +51,8 @@ html  {
 .jumbotron  {
     width: 100%;
     height: 450px;
-    background-color: rgba(0, 0, 0, 0.2);
 }
+
 
 .radius  {
     border-radius: 10px;
@@ -73,11 +73,13 @@ html  {
 .main  {
     background-color:#0785ff;
     margin-bottom: 10px;
+    height: 700px;
 }
 
 [class*="-img"]  {
     width: 100%;
-    height: 5em;
+    height: 15em;
+    object-fit: cover;
 }
 
 h2  {
@@ -89,15 +91,18 @@ h2  {
 }
 
 [class*=col-]  {
-    height: 400px;
+    height: 100%;
     width: 25%;
     margin: 10px 0px;
-    background-color: #abcfe7;
 }
 
 .col-central  {
     width: calc(50% - 40px);
     margin: 10px 20px;
+}
+
+.bg-over  {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .clearfix::after  {
