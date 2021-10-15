@@ -75,6 +75,14 @@ html  {
     margin-bottom: 10px;
 }
 
+[class*="-img"]  {
+    width: 100%;
+}
+
+h2  {
+    line-height: 2em;
+}
+
 .float  {
     float: left;
 }
