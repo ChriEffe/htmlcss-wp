@@ -66,20 +66,14 @@ html  {
 
 .col-left  {
     background-image: url(../img/img-1.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: 300px 270px;
     background-repeat: no-repeat;
 }
 
 .col-right  {
     background-image: url(../img/img-3.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: 320px 265px;
     background-repeat: no-repeat;
-}
-
-[class*="-img"]  {
-    height: 15em;
 }
 
 h2  {
@@ -90,7 +84,7 @@ h2  {
     float: left;
 }
 
-[class*=col-]  {
+[class*=col]  {
     width: 25%;
 }
 
@@ -98,8 +92,7 @@ h2  {
     width: calc(50% - 40px);
     margin: 0 20px;
     background-image: url(../img/banner-2.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -117,6 +110,7 @@ h2  {
 
 .footer  {
     text-align: center;
+    margin-top: 2em;
 }
 
 span  {
