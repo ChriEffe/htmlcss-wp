@@ -29,10 +29,14 @@ html  {
     line-height: 4em;
 }
 
-.menu  {
-    font-size: 0.7em;
+.list  {
+    list-style: none;
+    margin-right: 1em;
+    font-size: 0.8em;
+}
+
+a  {
     text-decoration: none;
-    margin: 0px 5px;
 }
 
 .grey  {
@@ -71,9 +75,9 @@ html  {
 }
 
 .col-right  {
-    background-image: url(../img/img-3.jpg);
-    background-size: 320px 265px;
-    background-repeat: no-repeat;
+        background-image: url(../img/img-3.jpg);
+        background-size: 320px 265px;
+        background-repeat: no-repeat;
 }
 
 h2  {
