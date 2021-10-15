@@ -41,20 +41,14 @@ html  {
 }
 
 .header-box  {
-    width: 100%;
-    height: 450px;
     margin: 35px 0px 30px;
     background-image: url(../img/banner.jpg);
     background-position: center;
 }
 
 .jumbotron  {
-    width: 100%;
     height: 450px;
-}
-
-
-.radius  {
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
@@ -70,15 +64,22 @@ html  {
     margin-bottom: 1em;
 }
 
-.main  {
-    margin-bottom: 10px;
-    height: 700px;
+.col-left  {
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col-right  {
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 [class*="-img"]  {
-    width: 100%;
     height: 15em;
-    object-fit: cover;
 }
 
 h2  {
@@ -90,18 +91,22 @@ h2  {
 }
 
 [class*=col-]  {
-    height: 100%;
     width: 25%;
-    margin: 10px 0px;
 }
 
 .col-central  {
     width: calc(50% - 40px);
-    margin: 10px 20px;
+    margin: 0 20px;
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bg-over  {
     background-color: rgba(0, 0, 0, 0.2);
+    height: 15em;
+    border-radius: 10px;
 }
 
 .clearfix::after  {
