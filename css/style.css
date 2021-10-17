@@ -63,6 +63,10 @@ a  {
 }
 
 /*main*/
+
+.main  {
+    height: 41em;
+}
 .header-body  {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 1em;
@@ -70,13 +74,13 @@ a  {
 
 .col-left  {
     background-image: url(../img/img-1.jpg);
-    background-size: 300px 270px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .col-right  {
         background-image: url(../img/img-3.jpg);
-        background-size: 320px 265px;
+        background-size: cover;
         background-repeat: no-repeat;
 }
 
@@ -90,19 +94,21 @@ h2  {
 
 [class*=col]  {
     width: 25%;
+    height: 250px;
 }
 
 .col-central  {
+    height: 250px;
     width: calc(50% - 40px);
     margin: 0 20px;
     background-image: url(../img/banner-2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-over  {
     background-color: rgba(0, 0, 0, 0.2);
-    height: 15em;
+    height: 250px;
     border-radius: 10px;
 }
 
